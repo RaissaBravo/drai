@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="dados.js"></script>
+
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div style="padding:10px">
+    <h4 style="display:inline-block; margin-right:20px">DRAI.live</h4>
+    <select id="myselect" class="form-control" style="display: inline; max-width: 200px;">
+
+    </select>
+    <div style="display: inline-block;float: right">
+      <button type="button" id="btn" class="btn btn-primary" style="margin-top:-5px">
+        PLAY
+      </button>
+      <input type="text" id="timeout" class="form-control" value="500" style="display: inline-block; width: 70px" />
+      <span>ms</span>
+    </div>
+  </div>
+  <div id="map-canvas"></div>
+  <div id="legenda">
+    <div id="cores">
+
+    </div>
+    <div id="valores">
+      <span>Normal Condition</span>
+      <span>Weak Drought</span>
+      <span>Moderate Drought</span>
+      <span>Severe Drought</span>
+      <span>Extreme Drought</span>
+      <span>Exceptional Drought</span>
+    </div>
+  </div>
+</body>
+
+</html>

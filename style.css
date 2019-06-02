@@ -1,0 +1,37 @@
+/* Styles go here */
+
+body {
+  background-color: #111;
+  color: #bbb;
+}
+
+#map-canvas {
+height: calc(100vh - 58px);
+  width: 100vw;
+  border: 0px solid black;
+}
+#legenda {
+  
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  top: 159px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+#legenda>div{
+  display: flex;
+}
+#cores{
+  width: 20px;
+  margin-right: 10px;
+  align-self: stretch;
+  background-image: linear-gradient(#00ff00,#66ff00, #ccff00,#ffff00,#ffcc00,#ff6600,#ff0000);
+}
+#valores{
+  flex-direction: column;
+  justify-content: space-between;
+}
